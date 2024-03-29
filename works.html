@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | Your Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FF204E;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5D0E41;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        header nav ul li a i {
+            color: #fff;
+            margin-right: 5px;
+        }
+
+        header nav ul li a:hover {
+            background-color: #A0153E;
+        }
+
+        .section {
+            background-color: #00224D;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .section h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: #FF204E;
+        }
+
+        .section p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .work {
+            margin-bottom: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #3C3C3C;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .work:hover {
+            transform: translateY(-5px);
+        }
+
+        .work img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .work p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #5D0E41;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i>About Me</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i>Resume</a></li>
+                <li><a href="works.html"><i class="fas fa-code"></i>Works</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i>Gallery</a></li>
+                <li><a href="contacts.html"><i class="fas fa-envelope"></i>Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="works" class="section">
+            <div class="container">
+                <h1>Works</h1>
+                <div class="work">
+                    <img src="image\web-first.png" alt="First Web">
+                    <h2>My First Website</h2>
+                    <p>This was my first attempt at creating a website. It was a simple project to get started with web development.</p>
+                </div>
+                <div class="work">
+                    <img src="image\portfolio-old.png" alt="Portfolio">
+                    <h2>Portfolio Creation</h2>
+                    <p>I developed my portfolio website to showcase my skills, projects, and experiences to potential employers and clients.</p>
+                </div>
+                <div class="work">
+                    <img src="image\appication-prog.jpg" alt="Student Acceptance Program">
+                    <h2>Student Acceptance Program</h2>
+                    <p>Developed a program in Java to manage student applications and streamline the acceptance process.</p>
+                </div>
+                <div class="work">
+                    <img src="image\sea-battle.jpg" alt="2D Game in Java">
+                    <h2>2D Game in Java</h2>
+                    <p>Created a simple 2D game using Java. It was a fun project to learn game development concepts.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact me: +996556155192 | eldarzh123@gmail.com</p>
+            <p>&copy; 2024 Eldar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

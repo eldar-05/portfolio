@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Your Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FF204E;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5D0E41;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        header nav ul li a i {
+            color: #fff;
+            margin-right: 5px;
+        }
+
+        header nav ul li a:hover {
+            background-color: #A0153E;
+        }
+
+        .section {
+            background-color: #00224D;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .section h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: #FF204E;
+        }
+
+        .section p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #5D0E41;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #5D0E41;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #FF204E;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #A0153E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i>About Me</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i>Resume</a></li>
+                <li><a href="works.html"><i class="fas fa-code"></i>Works</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i>Gallery</a></li>
+                <li><a href="contacts.html"><i class="fas fa-envelope"></i>Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacts" class="section">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i>Contact me: +996556155192</p>
+                    <p><i class="fas fa-envelope"></i>Email me: eldarzh123@gmail.com</p>
+                </div>
+                <p>Feel free to reach out to me for any inquiries or collaborations!</p>
+                <div class="contact-form">
+                    <form action="mailto:eldarzh123@gmail.com" method="post" enctype="text/plain">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea><br>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact me: +996556155192 | eldarzh123@gmail.com</p>
+            <p>&copy; 2024 Eldar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
